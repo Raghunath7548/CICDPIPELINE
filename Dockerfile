@@ -9,4 +9,4 @@ RUN unzip photogemic.zip
 RUN cp -rvf photogemic/* 
 RUN rm -rf photogemic photogemic.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
